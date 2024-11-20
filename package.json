@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@dexhunterio/swaps": "^0.0.113",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@meshsdk/core": "^1.7.3",
     "@meshsdk/react": "^1.7.3",
+    "@mui/material": "^6.1.7",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
