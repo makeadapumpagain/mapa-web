@@ -24,7 +24,7 @@ const tiers = [
   { name: "Whale", threshold: 1_000_000_000, imageUrl: "/images/whale.png" },
 ];
 
-export default function Home() {
+const Home: React.FC = () => {
   const { connected, wallet } = useWallet();
   const [loading, setLoading] = useState<boolean>(false);
   const [mapaQuantity, setMapaQuantity] = useState<number | null>(null);
@@ -159,3 +159,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home;
